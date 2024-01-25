@@ -12,30 +12,22 @@ body {
     font-size: 16px;
 }
 
-/*Estilos header*/
-header {
+/*Estilos navbar*/
+
+.navbar {
     background-color: #fcfcfc;
-    padding: 0px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
     border-top: 10px solid #4855a3;
 }
 
-/*Estilos navbar*/
-.list {
-    list-style: none;
-    margin: 5px;
-    justify-content: baseline;
+.navbar-nav {
+    align-items: center;
 }
 
-.list li {
-    display: inline-block;
-    padding: 6px;
-    margin: 10px;
+#navbarNav {
+    justify-content: flex-end;
 }
 
-.list-item {
+.nav-link {
     transition: all 0.4s ease 0s;
     font-size: 18px;
     padding: 5px;
@@ -44,8 +36,13 @@ header {
     font-weight: 500;
 }
 
+.nav-item {
+    padding: 0 6px;
+    margin: 6px;
+}
+
 a.active,
-.list-item:hover {
+.nav-link:hover {
     border-bottom: 2px solid #43397c;
     color: #43397c;
     transition: all;
@@ -133,7 +130,12 @@ p {
     font-weight: 500;
 }
 
-/*Estilso cards*/
+.container-fluid {
+    margin-left: 1px;
+    padding-left: 1px;
+}
+
+/*Estilos cards*/
 .card {
     margin: 25px 10px;
     padding: 0;
