@@ -233,6 +233,18 @@ footer p {
 
 }
 
+/*Estilos sucursales*/
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.branch {
+    width: 600px;
+    height: 600px;
+}
+
+
 /*media queries*/
 
 @media (max-width:975px) {

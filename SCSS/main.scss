@@ -1,1 +1,15 @@
+//Utilities
+@import 'partials/utilities/variables';
 
+//Base
+@import 'partials/base/reset';
+@import 'partials/base/tipografia';
+
+//Components
+@import 'partials/components/index';
+@import 'partials/components/navbar';
+@import 'partials/components/cards';
+@import 'partials/components/buttons';
+@import 'partials/components/form';
+@import 'partials/components/footer';
+@import 'partials/components/social';
