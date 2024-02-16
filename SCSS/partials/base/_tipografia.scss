@@ -8,24 +8,30 @@ body {
 
 }
 
-h1 {
-    font-weight: bold;
-    text-decoration: underline;
-    margin: 20px 0;
-    text-transform: uppercase;
-}
-
-h2 {
+h2,
+.title {
     margin: 20px 0;
     background-color: $background-color_3;
     color: $color_4;
     padding: 5px;
+    font-size: 30px;
+
 }
 
 p {
     margin: 20px 0;
     font-weight: 500;
+
 }
+
+.about {
+    p {
+        font-style: oblique;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
 
 @media (max-width:975px) {
     .inmobilogo {
@@ -50,5 +56,5 @@ p {
     p {
         font-size: 14px;
     }
-}
 
+}

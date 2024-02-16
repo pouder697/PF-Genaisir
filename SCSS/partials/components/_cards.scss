@@ -5,6 +5,7 @@
 
 .card-body {
     padding: 18px;
+    margin: 0 10px;
 }
 
 /*Estilos sucursales*/
@@ -16,4 +17,9 @@
 .branch {
     width: 600px;
     height: 600px;
+}
+
+.card__title {
+    margin: 0;
+    font-size: 18px;
 }

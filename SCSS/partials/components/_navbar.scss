@@ -2,12 +2,15 @@
 	background-color: $background-color_2;
 	border-top: 10px solid #4855a3;
 }
+
 .navbar-nav {
 	align-items: center;
 }
+
 #navbarNav {
 	justify-content: flex-end;
 }
+
 .nav-link {
 	transition: all 0.4s ease 0s;
 	font-size: 18px;
@@ -15,6 +18,7 @@
 	color: $color_1;
 	text-decoration: none;
 	font-weight: 500;
+
 	&:hover {
 		border-bottom: 2px solid #43397c;
 		color: $color_2;
@@ -22,10 +26,12 @@
 		font-weight: bolder;
 	}
 }
+
 .nav-item {
 	padding: 0 6px;
 	margin: 6px;
 }
+
 a.active {
 	border-bottom: 2px solid #43397c;
 	color: $color_2;

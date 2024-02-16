@@ -1,5 +1,5 @@
 body {
-	background-color: $background-color_1;
+    background-color: $background-color_1;
 }
 
 #family {
@@ -16,7 +16,7 @@ body {
         object-fit: cover;
     }
 
-    h1 {
+    .banner__title {
         font-size: 2.6rem;
         color: $color_3;
         position: absolute;
@@ -38,11 +38,22 @@ body {
     bottom: 50%;
 }
 
+.about {
+    background-color: #fff;
+    padding: 20px 80px;
+    border: 1px groove rgba(128, 128, 128, 0.315);
+    border-radius: 8px;
+    margin: 25px 50px;
+    text-align: justify;
+
+}
+
 main {
     margin: 20px;
     padding: 20px;
     height: 100%;
 }
+
 
 @media (max-width:584px) {
     .banner {
