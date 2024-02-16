@@ -14,7 +14,7 @@ h2,
     background-color: $background-color_3;
     color: $color_4;
     padding: 5px;
-    font-size: 30px;
+    font-size: map-get($font-sizes, xxl);
 
 }
 
@@ -27,7 +27,7 @@ p {
 .about {
     p {
         font-style: oblique;
-        font-size: 20px;
+        font-size: map-get($font-sizes, lg);
         font-weight: 400;
     }
 }
@@ -40,26 +40,26 @@ p {
 
     #family {
         h1 {
-            font-size: 28px;
+            font-size: map-get($font-sizes, xl);
         }
     }
 
     h2 {
-        font-size: 28px;
+        font-size: map-get($font-sizes, xl);
         text-align: center;
     }
 
     .list-item {
-        font-size: 16px;
+        font-size: map-get($font-sizes, m);
     }
 
     p {
-        font-size: 14px;
+        font-size: map-get($font-sizes, sm);
     }
 
     .about {
         p {
-            font-size: 14px;
+            font-size: map-get($font-sizes, sm);
             text-align: left;
         }
     }

@@ -1,0 +1,4 @@
+@mixin estilizar($altura, $ancho) {
+    width: $ancho;
+    height: $altura;
+}

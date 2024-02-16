@@ -9,7 +9,7 @@
     cursor: pointer;
     margin: 20px;
 
-    
+
 
     &.login {
         border: 1px solid #43397c;
@@ -23,6 +23,7 @@
         align-content: center;
         text-transform: uppercase;
     }
+
     &:hover {
         background-color: $background-color_4;
         color: $color_2;
