@@ -143,6 +143,10 @@ main {
   #family h1 {
     font-size: 24px;
   }
+  .about {
+    padding: 20px;
+    margin: 10px;
+  }
 }
 @media (max-width: 584px) {
   #family h1 {
